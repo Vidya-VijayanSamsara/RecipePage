@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: bisque;
+}
+
+.container{
+    background-color: white;
+    width: 45%;
+    height: 100%;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.container img{
+    width: 100%;
+    padding: 0px 15px;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+.container h1{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: 'Young Serif', serif;
+}
+
+.container p{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.container .second-section{
+
+    background-color: rgba(247, 40, 133,0.1);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 3;
+
+}
+.container .second-section h5{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: darkmagenta;
+    font-weight: bold;
+}
+.second-section .first-ul{
+    padding: 5px 60px;
+}
+
+.second-section .first-ul li::marker {
+    color: darkmagenta;
+    padding-left: 35px;
+  }
+
+  h3{
+    color: brown;
+    font-family: 'Young Serif', serif;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .second-ul{
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .second-ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ 
+.first-ol{
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+.container .first-ol li::marker{
+    color: brown;
+    font-weight: bold;
+  }
+.container p{
+    padding-left: 10px;
+}  
+
+.container table{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.container table tr td{
+    padding: 10px;
+    border-bottom: 1px solid brown;
+}
+
+.gap{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+.td-color{
+    color: brown;
+    font-weight: bold;
+}
